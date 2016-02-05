@@ -241,6 +241,7 @@ PRODUCT_PACKAGES += \
 	p2p_supplicant_overlay.conf
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+	persist.camera.shutter.disable=1 \
 	rild.libpath=/system/lib/libril-qc-qmi-1.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
